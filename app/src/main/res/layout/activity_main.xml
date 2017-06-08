@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizz"
+    android:orientation="vertical"
+    tools:context="com.example.admin.quiztime.MainActivity">
+
+    <Button
+        android:id="@+id/btnColours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="COLOURS"
+        android:textColor="#E91E63"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/btnNumbers"
+        android:layout_alignStart="@+id/btnNumbers" />
+
+    <Button
+        android:id="@+id/btnShapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHAPES"
+        android:textColor="#E91E63"
+        android:textSize="14dp"
+        android:layout_below="@+id/btnColours"
+        android:layout_alignLeft="@+id/btnColours"
+        android:layout_alignStart="@+id/btnColours" />
+
+    <Button
+        android:id="@+id/btnNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMBERS"
+        android:textColor="#E91E63"
+        android:textSize="14dp"
+        android:layout_below="@+id/btnShapes"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="CHOOSE A CATEGORY"
+        android:textColor="#E91E63"
+        android:textSize="20dp" />
+
+</RelativeLayout>
